@@ -21,7 +21,7 @@ class BikeRental:
             return None
         else:
             now= datetime.datetime.now()
-            print("You have rented a {} Bike(s) on hourly basis today at {} hours.".format(n, now.hour))
+            print("You have rented {} Bike(s) on hourly basis today at {} hours.".format(n, now.hour))
             print("You will be charged $5 for each hour per bike.")
             print("We hope that you enjoy our service.")
 
@@ -38,7 +38,7 @@ class BikeRental:
             return None
         else:
             now= datetime.datetime.now()
-            print("You have rented a {} Bike(s) on hourly basis today at {} hours.".format(n, now.hour))
+            print("You have rented {} Bike(s) on daily basis today at {} hours.".format(n, now.hour))
             print("You will be charged $20 for each hour per bike.")
             print("We hope that you enjoy our service.")
 
@@ -55,7 +55,7 @@ class BikeRental:
             return None
         else:
             now= datetime.datetime.now()
-            print("You have rented a {} Bike(s) on hourly basis today at {} hours.".format(n, now.hour))
+            print("You have rented {} Bike(s) on weekly basis today at {} hours.".format(n, now.hour))
             print("You will be charged $60 for each hour per bike.")
             print("We hope that you enjoy our service.")
 
