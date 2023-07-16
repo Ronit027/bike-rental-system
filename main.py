@@ -23,7 +23,7 @@ def main():
         try:
             choice= int(choice)
         except ValueError:
-            print("That's not an integer!")
+            print("That's not an positive integer!")
             continue
 
         if choice == 1:
@@ -52,5 +52,4 @@ def main():
             print("Invalid input. please enter number between 1-6")
     print("Thank You for using our Bike Rental System")
 
-if __name__=="__main__":
-    main()
+main()
